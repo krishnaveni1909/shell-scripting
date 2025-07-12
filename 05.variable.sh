@@ -8,4 +8,8 @@ echo "username entered: $USERNAME"
 
 echo "Please enter your Password="
 
-read -s PASSWORD 
+read PASSWORD 
+
+#read is used to take input from the user
+
+# -s means silent mode: The input will be hidden while typing
