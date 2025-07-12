@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# which program should run the script
+# bin and bash is the path to bash shell.
+
+
 # Above comment is used in 1st line of every shell script
 
 echo "HELLO WORLD! WELCOME"
