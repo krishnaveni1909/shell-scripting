@@ -8,7 +8,7 @@ echo "username entered: $USERNAME"
 
 echo "Please enter your Password="
 
-read PASSWORD 
+read -s PASSWORD 
 
 #read is used to take input from the user
 
