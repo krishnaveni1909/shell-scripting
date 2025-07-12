@@ -4,7 +4,7 @@ NUMBER1=$1
 NUMBER2=$2
 
 
-TIMESTAMP = $(date)
+TIMESTAMP=$(date)
 echo "Script executed at: $TIMESTAMP"
 Sum=$(($NUMBER1+NUMBER2))
 
