@@ -1,5 +1,11 @@
 #!/bin/bash
 
-fruits=("Apple" "Banana" "Mango")
-echo "First fruit: ${fruits[0]}"
-echo "All fruits: ${fruits[@]}"
+MOVIES=("pushpa" "Idiots" "Arya")
+
+#index starts from 0, size is 3
+
+echo "First movie : ${MOVIES[0]}"
+echo "Second movie: ${MOVIES[1]}"
+echo "Third movie : ${MOVIES[2]}"
+echo "All movies  : ${MOVIES[@]}"
+
