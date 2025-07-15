@@ -6,7 +6,7 @@ NUMBER=$1
 # -ge = greater than or equal to, -le = less than or equal to
 
 
-if [NUMBER -gt 100]
+if [$NUMBER -gt 100]
 then 
 echo "Given number is greater than 100"
 else 
